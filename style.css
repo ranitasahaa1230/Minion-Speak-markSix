@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    margin: 0;
+    background-color:rgba(255, 255, 0, 0.685);
+    
+}
+
+h1{
+    margin: 2rem;
+    font-size: 2.5rem;
+    color: green;
+}
+
+
+input{
+    display: block;
+    margin-left: 28rem;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+
+label{
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    margin-right: 20rem;
+    color: rgb(211, 26, 26);
+}
+
+#message{
+    width: 38rem;
+    height: 10rem;
+}
+
+#translate{
+    height: 8rem;
+    width: 38rem;
+}
+
+button{
+    font-size: 1.4rem;
+    background-color:purple;
+    color:white;
+    padding: 5px;
+    margin-top: 2rem;
+    margin-right: 26rem;
+}
+
+footer{
+    margin-top: 8rem;
+}
