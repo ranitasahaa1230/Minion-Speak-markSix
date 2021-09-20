@@ -39,11 +39,11 @@ button{
     font-size: 1.5rem;
     background-color:rgba(24, 24, 214, 0.753);
     color:black;
-    padding: 0.4px;
+    padding: 0.2px;
     margin-top: 0.8rem;
-    margin-right: 25rem;
+    margin-right: 24rem;
     height: 4rem;
-    width: 14rem;
+    width: 15rem;
 }
 
 #output{
@@ -53,7 +53,7 @@ button{
     margin-left: 28rem;
     background-color: beige;
     margin-bottom: 0.2rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 
 }
 #about{
