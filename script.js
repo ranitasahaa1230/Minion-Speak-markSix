@@ -1,4 +1,4 @@
-const text=document.querySelector('textarea');
+const input=document.querySelector('textarea');
 const submitBtn=document.querySelector('#submit-btn')
 const outputEl=document.querySelector('#output')
 
@@ -17,7 +17,7 @@ function errorHandler(error){
 }
 
 function submitHandler(){
-    let inputText=text.value;
+    let inputText=input.value;
     
     fetch(getTranslation(inputText))
      .then(response=>response.json())
