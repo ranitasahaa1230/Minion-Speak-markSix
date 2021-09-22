@@ -1,16 +1,24 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     text-align: center;
-    margin: 0;  
+    font-size: 1.5rem;
+
 }
 
 nav{
-    background-color: yellowgreen;
+    background-color: #6EE7B7;
     text-align: center;
-    font-size: 2.5rem;
-    color: blueviolet;
-    height: 2.4rem;
-    padding: 2rem;
+    color: #7F1D1D;
+    height: 5.6rem;
+    padding: 1.2rem;
     margin-bottom: 2rem;
     font-size: 3rem;
 } 
@@ -18,65 +26,95 @@ nav{
 
 textarea{
     display: block;
-    margin-left: 28rem;
-    border: 2px solid black;
-    font-size: 1rem;
+    margin: auto;
+    border: 2px solid #2563EB;
+    font-size: 1.2rem;
     font-weight: 550;
-    width: 38rem;
+    width: 33rem;
     height: 10rem;
+    padding: 0.5rem;
+    color: #4C1D95;
+    border-radius: 12px;
 
 }
 
 #translate{
-    font-size: large;
-    margin-right: 25rem;
+    font-size: 1.4rem;
+    margin-right: 8rem;
     font-weight: 600;
-    padding-top: 0.8rem;
-    color: brown;
+    padding-top: 0.5rem;
+    color:#831843;
+    margin-top: 0.6rem;
+
 }
+
 
 button{
     font-size: 1.5rem;
-    background-color:rgba(24, 24, 214, 0.753);
-    color:black;
-    padding: 0.2px;
-    margin-top: 0.8rem;
-    margin-right: 24rem;
-    height: 4rem;
-    width: 15rem;
+    background-color:#2563EB;
+    margin:auto;
+    color: white;
+    padding: 1rem;
+    margin-top: 1.6rem;
+    border: 2px solid white;
+    border-radius: 14px;
+    
 }
 
 #output{
-    width: 38rem;
-    height: 7rem;
-    border: 2px solid black;
-    margin-left: 28rem;
-    background-color: beige;
-    margin-bottom: 0.2rem;
-    font-size: 1.5rem;
-
+    font-size: 2rem;
+    padding: 1.2rem;
+    width: 33rem;
+    height: 8rem;
+    border: 2px solid #2563EB;
+    margin: auto;
+    border-radius: 12px;
+    background-color: white;
+    margin-bottom: 0.8rem;
+    background-color: rgb(138, 247, 138);
+    color: #4C1D95;
 }
+
 #about{
     box-sizing: border-box;
     width: 40%;
-    margin-left: 27rem;
+    margin:auto;
 }
 
-p{
-    font-size: 1.8rem;
-    padding-top: 0.4rem;
-    font-weight: 900;
-    margin-right: 6rem;
-} 
+.about{
+    color:#7F1D1D;
+    font-weight: bolder;
+}
 section{
     font-size: 1.3rem;
     
 }
 footer{
-    margin-top: 2rem;
-    background-color: yellowgreen;
-    width: 100%;
-    height: 17rem;
-    font-family:Georgia, Times, serif
-
+    text-align: center;
+    background-color:#6EE7B7;  
 }
+
+p{
+    font-size: 2rem;
+    color:#831843;
+    font-family: 'Merienda', cursive;
+    padding: 0.2rem;
+    font-weight: bolder;
+}
+
+img{
+    height: 2rem;
+    width: 2rem;
+    margin: 0.2rem;
+    box-shadow:0px 0px 10px 0px black;
+}
+
+img:hover{
+    background-color: blue;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px){
+    body {
+      background-color: lightpink;
+    }
+  }
